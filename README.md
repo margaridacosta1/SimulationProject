@@ -15,16 +15,16 @@ java -cp ./classes:./jars/commons-math3-3.6.1.jar Simulation
 ```
 
 ## Files
-|src| 
-Accumulated.java - file that contains information for accumulated values of all days;
-CsvWtriter.java - file that contains create and write ".csv"; 
-Day.java - file that contains day's informations;
-Interval.java - file that contains a function to calculate a trust interval;
-Simulation.java - file that contains simulation functions.
-|jars|
-commons-math3-3.6.1.jar - jar file of JAVA external library. 
-|classes| 
-Class files of src's files compiled.
+|src| <br />
+Accumulated.java - file that contains information for accumulated values of all days; <br />
+CsvWtriter.java - file that contains create and write ".csv"; <br />
+Day.java - file that contains day's informations;<br />
+Interval.java - file that contains a function to calculate a trust interval;<br />
+Simulation.java - file that contains simulation functions.<br />
+|jars|<br />
+commons-math3-3.6.1.jar - jar file of JAVA external library. <br />
+|classes| <br />
+Class files of src's files compiled.<br />
 
 ## Input 
 The program asks as input the number of observations (integer), the number of days (integer) and the degree of confidence (double, with comma).
