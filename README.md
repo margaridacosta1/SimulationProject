@@ -15,15 +15,15 @@ java -cp ./classes:./jars/commons-math3-3.6.1.jar Simulation
 ```
 
 ## Files
-|src| <br />
+--| src |-- <br />
 Accumulated.java - file that contains information for accumulated values of all days; <br />
 CsvWtriter.java - file that contains create and write ".csv"; <br />
 Day.java - file that contains day's informations;<br />
 Interval.java - file that contains a function to calculate a trust interval;<br />
 Simulation.java - file that contains simulation functions.<br />
-|jars|<br />
+--| jars |-- <br />
 commons-math3-3.6.1.jar - jar file of JAVA external library. <br />
-|classes| <br />
+--| classes |-- <br />
 Class files of src's files compiled.<br />
 
 ## Input 
